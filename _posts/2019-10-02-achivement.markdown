@@ -7,3 +7,4 @@ categories: diary
 - Setup Jekyll for personal Diary corner
 - Suggested/Worked with Nguyen Pham to rework on Mixpanel event Epic which helps to merge `dynamic` options on `predefined` options of event
 - Instruct Cuong Ngo to start on best pratice of what he touchs e.g: ruby, rails
+- Register/refactor Mixpanel events for Company Values module
