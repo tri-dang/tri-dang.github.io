@@ -1,0 +1,19 @@
+---
+layout: home
+---
+
+<ul class="post-list">
+  {%- for post in site.categories.personal -%}
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ post.date | date: date_format }}</span>
+    <div class="post-content e-content" itemprop="articleBody">
+      {{ post.content }}
+    </div>
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}
+  </li>
+  {%- endfor -%}
+</ul>
+

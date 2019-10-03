@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 5 cents of live
+title: Quotes
 permalink: /about/
 ---
 
