@@ -7,3 +7,4 @@ categories: diary
 - I figure out the need of having a comprehensive staging environment that all
   feature works well on
 - Fix db seeding in marketplace related to Q Super and also help Lo Ng to config access to that product
+- Collaborate with Ken in MP migration on Company Values/Recognition/Milestones
