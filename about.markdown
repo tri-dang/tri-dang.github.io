@@ -4,10 +4,17 @@ title: Quotes
 permalink: /about/
 ---
 
-**Individuals and interactions** over processes and tools.
+When making application:
 
-**Working software** over comprehensive documentation.
+> **Individuals and interactions** over processes and tools.
 
-**Customer collaboration** over contract negotiation.
+> **Working software** over comprehensive documentation.
 
-**Responding to change** over following a plan.
+> **Customer collaboration** over contract negotiation.
+
+> **Responding to change** over following a plan.
+
+
+In conversation:
+
+> Are you willing to not win in order to keep the conversation going?
