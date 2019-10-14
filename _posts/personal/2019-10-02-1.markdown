@@ -4,4 +4,4 @@ title:  "2019-10-02"
 date:   2019-10-02 12:09:54 +0700
 categories: personal
 ---
-- Setup Jekyll for personal Diary corner
+- [Diary] Setup Jekyll for personal Diary corner
