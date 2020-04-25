@@ -10,16 +10,18 @@ layout: home
   {%- endif -%}
   {{ content }}
   {%- for post in posts -%}
-    <li>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      <span class="post-meta">{{ post.date | date: date_format }}</span>
-      <div class="post-content e-content" itemprop="articleBody">
-        {{ post.content }}
-      </div>
-      {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-      {%- endif -%}
-    </li>
+    {%- if post.locale == page.locale or page.locale == null -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+    {%- endif -%}
   {%- endfor -%}
 </ul>
 
