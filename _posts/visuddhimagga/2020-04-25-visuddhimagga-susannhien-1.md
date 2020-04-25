@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visuddhimagga 1 - Sư Sán Nhiên
-date: 2020-04-25 15:27 +0700
+date: 2020-04-24 21:00 +0700
 categories: [dhamma, learning]
 locale: vn
 ---
