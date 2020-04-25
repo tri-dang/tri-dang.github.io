@@ -3,7 +3,11 @@ layout: home
 ---
 
 <ul class="post-list">
-  {%- assign posts = site.categories[page.category] -%}
+  {%- if page.category -%}
+    {%- assign posts = site.categories[page.category] -%}
+  {%- else -%}
+    {%- assign posts = site.posts -%}
+  {%- endif -%}
   {{ content }}
   {%- for post in posts -%}
     <li>
