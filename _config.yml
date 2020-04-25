@@ -21,8 +21,7 @@
 title: Diary
 #email: test@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We're not human beings having a spirtiual experience.
-  We're spirtiual beings having a human experience.
+  If you are unable to find the truth right where you are, where else do you expect to find it?
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tri-dang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: tri-dang
