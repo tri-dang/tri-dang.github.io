@@ -3,22 +3,31 @@ layout: home
 ---
 
 <ul class="post-list">
-  {%- if page.category -%}
-    {%- assign posts = site.categories[page.category] -%}
-  {%- else -%}
-    {%- assign posts = site.posts -%}
-  {%- endif -%}
+  {%- assign posts = site.posts -%}
   {{ content }}
   {%- for post in posts -%}
     {%- if post.locale == page.locale or page.locale == null -%}
+      {%- if page.categories -%}
+        {%- assign matched = false -%}
+        {%- for category in post.categories -%}
+          {%- if page.categories contains category -%}
+            {%- assign matched = true -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- else -%}
+        {%- assign matched = true -%}
+      {%- endif -%}
+
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <div class="post-content e-content" itemprop="articleBody">
-          {{ post.content }}
-        </div>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+        {%- if matched -%}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <div class="post-content e-content" itemprop="articleBody">
+            {{ post.content }}
+          </div>
+          {%- if site.show_excerpts -%}
+            {{ post.excerpt }}
+          {%- endif -%}
         {%- endif -%}
       </li>
     {%- endif -%}
