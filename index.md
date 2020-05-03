@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: category_posts
-categories: [dhamma, learning, reading]
+tags: [learning, reading]
 ---
