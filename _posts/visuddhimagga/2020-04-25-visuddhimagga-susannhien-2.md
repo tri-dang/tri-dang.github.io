@@ -2,7 +2,8 @@
 layout: post
 title: Visuddhimagga 2 - Sư Sán Nhiên
 date: 2020-04-25 18:08 +0700
-categories: [dhamma, learning]
+categories: [dhamma]
+tags: [learning]
 locale: vn
 ---
 [Dhamma] Visuddhimagga - [Thanh Tịnh Đạo - Sư Sán Nhiên](https://www.youtube.com/playlist?list=PLM6nS0DN6oLvie1ZGdVK_aXAtJqm1B_wO)

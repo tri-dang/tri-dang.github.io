@@ -3,7 +3,8 @@ layout: post
 title: Kinh nghiệm tâm thức
 title: Ôi tôi đang tham! Hạnh phúc quá!
 date: 2020-05-03 09:58 +0700
-categories: [dhamma, vipassana, practicing]
+categories: [dhamma]
+tags: [vipassana, practicing]
 locale: vn
 ---
 [Vipassanā Practicing] Ôi tôi đang tham! Hạnh phúc quá!
