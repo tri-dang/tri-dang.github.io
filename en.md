@@ -1,6 +1,6 @@
 ---
 layout: category_posts
-permalink: /vn/
+permalink: /en/
 title: EN
 tags: [reading, learning]
 locale: en

@@ -4,4 +4,5 @@
 
 layout: category_posts
 tags: [learning, reading]
+locale: en
 ---
