@@ -1,6 +1,6 @@
 ---
 layout: post
-title: portfolio-ideas
+title: portfolio-ideas and 1x.engineer
 categories: [personal, engineering]
 tags: [portfolio]
 date: 2022-06-08 09:39 +0700
@@ -12,3 +12,7 @@ locale: en
 
 - [Personal Portfolio]
   + Revise [tri-dang.github.io](https://tri-dang.github.io/)
+
+- [1x.engineer]
+  + What is a [1X Engineer](https://1x.engineer/)?
+  + Read through repos and pull request
