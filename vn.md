@@ -1,7 +1,7 @@
 ---
 layout: category_posts
-title: VN
+title: Các bài viết
 permalink: /vn/
-tags: [learning]
+tags: [reading, learning]
 locale: vn
 ---

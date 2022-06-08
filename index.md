@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: category_posts
-tags: [learning, reading]
+tags: [reading]
+categories: [engineering]
 locale: en
 ---

@@ -1,7 +1,8 @@
 ---
 layout: category_posts
+title: Posts
 permalink: /en/
-title: EN
+categories: [engineering]
 tags: [reading, learning]
 locale: en
 ---
