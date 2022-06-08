@@ -5,7 +5,7 @@ layout: home
 <ul class="post-list">
   {%- assign posts = site.posts -%}
   {{ content }}
-  {%- for post in posts reversed -%}
+  {%- for post in posts -%}
     {%- if post.locale == page.locale or page.locale == null -%}
       {%- if page.categories -%}
         {%- assign matched = false -%}
