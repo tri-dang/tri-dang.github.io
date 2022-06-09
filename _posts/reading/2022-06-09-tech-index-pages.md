@@ -15,4 +15,4 @@ locale: en
 
 - [Interest]
   + Know about HN Who is Hiring?
-  + Cache invalidation solution from Meta
+  + [Cache invalidation](https://engineering.fb.com/2022/06/08/core-data/cache-invalidation/) solution from Meta
