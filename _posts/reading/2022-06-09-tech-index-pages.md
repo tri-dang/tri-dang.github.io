@@ -8,7 +8,9 @@ locale: en
 ---
 - [Tech News]
   + [daily.dev](https://app.daily.dev/)
+  + [top startups](https://topstartups.io/)
   + top 10 [Hacker News](https://news.ycombinator.com/)
+  + [Tech Radar](https://www.thoughtworks.com/radar)
 
 - [Ideas]
   + Use RSS
